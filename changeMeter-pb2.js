@@ -1,7 +1,7 @@
 function  centimeterToMeter(centimeter){
-    const meter= centimeter * 25411;
+    const meter= 0.01 * centimeter;
     return meter;
 }
-const inputCentimeter= 10;
+const inputCentimeter= 100;
 const resultMeter=centimeterToMeter(inputCentimeter);
 console.log('totall result of meter:',resultMeter);
